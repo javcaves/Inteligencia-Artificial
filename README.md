@@ -1,4 +1,5 @@
 # Evaluación 1: Análisis Exploratorio de Datos
+Desarrollo de diagnóstico, análisis exploratorio (EDA) y preparación de un conjunto de datos centrado en el rendimiento académico de estudiantes de educación superior.
 ## Integrantes
 
 Javiera Cuevas - javiera.cuevas2201@alumnos.ubiobio.cl  
