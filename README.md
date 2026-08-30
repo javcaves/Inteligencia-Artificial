@@ -1,5 +1,4 @@
-# Inteligencia Artificial 
-Evaluación 1: Análisis Exploratorio de Datos
+# Inteligencia Artificial ## Evaluación 1: Análisis Exploratorio de Datos
 ## Integrantes
 
 Javiera Cuevas - javiera.cuevas2201@alumnos.ubiobio.cl
