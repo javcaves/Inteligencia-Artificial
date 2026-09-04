@@ -2,6 +2,7 @@
 
 Desarrollo de diagnóstico, análisis exploratorio (EDA), limpieza y transformación de un conjunto de datos centrado en el rendimiento académico de estudiantes de educación superior, con el fin de prepararlo para un futuro modelo predictivo.
 
+
 ## Integrantes - Grupo 07 
 
 * **Javiera Cuevas** – [javiera.cuevas2201@alumnos.ubiobio.cl](mailto:javiera.cuevas2201@alumnos.ubiobio.cl)
@@ -9,9 +10,11 @@ Desarrollo de diagnóstico, análisis exploratorio (EDA), limpieza y transformac
 * **Arline Mitchell** – [arline.mitchell2201@alumnos.ubiobio.cl](mailto:arline.mitchell2201@alumnos.ubiobio.cl)
 * **Nicolás Morales** – [nicolas.morales2001@alumnos.ubiobio.cl](mailto:nicolas.morales2001@alumnos.ubiobio.cl)
 
+
 ## Descripción 
 
 Este repositorio contiene el desarrollo de la **Evaluación 1**, enfocada en el análisis exhaustivo de la calidad de los datos, la detección de anomalías y el Análisis Exploratorio de Datos (EDA) de un dataset académico. El objetivo principal es estructurar y limpiar los datos para garantizar un rendimiento óptimo en la construcción de un futuro modelo orientado a predecir la calificación final de los estudiantes (`FinalGrade`).
+
 
 ## Estructura del Repositorio y Contenidos del Notebook
 
@@ -29,6 +32,7 @@ El desarrollo está estructurado en las siguientes fases:
 2. **Análisis Exploratorio de Datos (EDA):**
    * **Distribuciones:** Visualización de histogramas y densidades (`KDE`) para comprender el comportamiento de variables clave como `FinalGrade`, `StudyHours`, `Attendance` y `PreviousGPA`.
    * **Matriz de Correlación:** Análisis de correlaciones lineales entre variables numéricas para identificar relaciones multivariadas.
+
 
 ## Requisitos e Instrucciones de Ejecución
 
