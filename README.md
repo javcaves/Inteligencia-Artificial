@@ -9,13 +9,9 @@ Desarrollo de diagnóstico, análisis exploratorio (EDA), limpieza y transformac
 * **Arline Mitchell** – [arline.mitchell2201@alumnos.ubiobio.cl](mailto:arline.mitchell2201@alumnos.ubiobio.cl)
 * **Nicolás Morales** – [nicolas.morales2001@alumnos.ubiobio.cl](mailto:nicolas.morales2001@alumnos.ubiobio.cl)
 
----
-
 ## Descripción 
 
 Este repositorio contiene el desarrollo de la **Evaluación 1**, enfocada en el análisis exhaustivo de la calidad de los datos, la detección de anomalías y el Análisis Exploratorio de Datos (EDA) de un dataset académico. El objetivo principal es estructurar y limpiar los datos para garantizar un rendimiento óptimo en la construcción de un futuro modelo orientado a predecir la calificación final de los estudiantes (`FinalGrade`).
-
----
 
 ## Estructura del Repositorio y Contenidos del Notebook
 
@@ -34,13 +30,11 @@ El desarrollo está estructurado en las siguientes fases:
    * **Distribuciones:** Visualización de histogramas y densidades (`KDE`) para comprender el comportamiento de variables clave como `FinalGrade`, `StudyHours`, `Attendance` y `PreviousGPA`.
    * **Matriz de Correlación:** Análisis de correlaciones lineales entre variables numéricas para identificar relaciones multivariadas.
 
----
-
 ## Requisitos e Instrucciones de Ejecución
 
 El código está diseñado para ejecutarse preferentemente en entornos de Jupyter Notebook o **Google Colab**. 
 
-El dataset se descarga automáticamente de desde el repositorio mediante un comando `wget` nativo integrado en el script:
+El dataset se descarga automáticamente de desde el repositorio mediante un comando `wget` integrado en el script:
 
 ```python
 !wget -q -O rendimiento_academico_evaluacion.csv '[https://raw.githubusercontent.com/javcaves/Inteligencia-Artificial/refs/heads/main/E1%20%E2%80%93%20EDA/rendimiento_academico_evaluacion.csv](https://raw.githubusercontent.com/javcaves/Inteligencia-Artificial/refs/heads/main/E1%20%E2%80%93%20EDA/rendimiento_academico_evaluacion.csv)'
