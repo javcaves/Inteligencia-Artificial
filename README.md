@@ -42,9 +42,9 @@ El desarrollo está estructurado en las siguientes fases:
 ```text
 ├── E1 – EDA/
 │   ├── E1_EDA.ipynb                         # Notebook principal con todo el desarrollo reproducible
-│   ├── Presentacion_E1.pdf                  # Presentación resumen con hallazgos y decisiones
 │   ├── rendimiento_academico_evaluacion.csv # Dataset original (descargado vía wget en el script)
 │   └── rendimiento_academico_limpio.csv     # Dataset final tratado y exportado
+|── Análisis Exploratorio y Preparación de Datos.pdf # Presentación resumen con hallazgos y decisiones
 └── README.md                                # Documentación del repositorio
 ```
 
