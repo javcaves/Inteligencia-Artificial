@@ -33,7 +33,7 @@ El desarrollo está estructurado en las siguientes fases:
    * **Distribuciones:** Visualización de histogramas y densidades (`KDE`) para comprender el comportamiento de variables clave como `FinalGrade`, `StudyHours`, `Attendance` y `PreviousGPA`.
    * **Matriz de Correlación:** Análisis de correlaciones lineales entre variables numéricas para identificar relaciones multivariadas.
   
-## Contenidos del Notebook
+## Estructura del Repositorio
 ```text
 ├── E1 – EDA/
 │   ├── E1_EDA.ipynb                       # Notebook principal con todo el desarrollo reproducible
