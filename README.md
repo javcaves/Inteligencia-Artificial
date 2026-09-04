@@ -16,7 +16,7 @@ Desarrollo de diagnóstico, análisis exploratorio (EDA), limpieza y transformac
 Este repositorio contiene el desarrollo de la **Evaluación 1**, enfocada en el análisis exhaustivo de la calidad de los datos, la detección de anomalías y el Análisis Exploratorio de Datos (EDA) de un dataset académico. El objetivo principal es estructurar y limpiar los datos para garantizar un rendimiento óptimo en la construcción de un futuro modelo orientado a predecir la calificación final de los estudiantes (`FinalGrade`).
 
 
-## Estructura del Repositorio y Contenidos del Notebook
+## Contenidos del Notebook
 
 El desarrollo está estructurado en las siguientes fases:
 
@@ -32,11 +32,19 @@ El desarrollo está estructurado en las siguientes fases:
 2. **Análisis Exploratorio de Datos (EDA):**
    * **Distribuciones:** Visualización de histogramas y densidades (`KDE`) para comprender el comportamiento de variables clave como `FinalGrade`, `StudyHours`, `Attendance` y `PreviousGPA`.
    * **Matriz de Correlación:** Análisis de correlaciones lineales entre variables numéricas para identificar relaciones multivariadas.
-
-
+  
+## Contenidos del Notebook
+```text
+├── E1 – EDA/
+│   ├── E1_EDA.ipynb                       # Notebook principal con todo el desarrollo reproducible
+│   ├── rendimiento_academico_evaluacion.csv # Dataset original (descargado vía wget en el script)
+│   ├── rendimiento_academico_limpio.csv   # Dataset final tratado y exportado
+│   └── Presentacion_E1.pdf                  # Presentación resumen con hallazgos y decisiones
+└── README.md                              # Documentación del repositorio
+```
 ## Requisitos e Instrucciones de Ejecución
 
-El código está diseñado para ejecutarse preferentemente en entornos de Jupyter Notebook o **Google Colab**. 
+El código está diseñado para ejecutarse en entornos de Jupyter Notebook o **Google Colab**. 
 
 El dataset se descarga automáticamente de desde el repositorio mediante un comando `wget` integrado en el script:
 
